@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home:Scaffold(
+        appBar:AppBar(
+          title: Text("상단 영역"),
+        ),
         body:Row(
           children:[
             Expanded(child: Container(color:Colors.blue,)),
