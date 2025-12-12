@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
               IconButton(onPressed: (){}, icon: Icon(Icons.home)),
               Container(width: 50, height: 50, color: Colors.blue,),
               // Container <-> SizedBox 거의 유사
-              Image.asset("yu1.jpg", width: 70, height: 70,),
+              Image.asset("xilin.jpg", width: 70, height: 70,),
               CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage("yu2.jpg"),
+                backgroundImage: AssetImage("xilin.jpg"),
               )
             ],
           ),
